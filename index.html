@@ -9,12 +9,25 @@
 </head>
 <body>
     <div class="header">
-        <p>Выберите интересующее вас направление:</p>
+        <p id="directionText">Выберите интересующее вас направление:</p>
     </div>
     <div class="container">
-        <button id="site1Btn">Чрескожные коронарные вмешательства с применением ротационной атерэктомии</button>
-        <button id="site2Btn">Вмешательства на периферических сосудах​</button>
+        <a href="http://85.234.106.147/home" target="_blank">
+        <button id="site1Btn">
+            <span class="btn-text">Чрескожные коронарные вмешательства с применением ротационной атерэктомии</span>
+            <img src="pic_heart.png" alt="heart" >
+        </button>
+        </a>
+        <a href="https://boston.catzwolf.ru/" target="_blank">
+        <button id="site2Btn">
+            <span class="btn-text">Вмешательства на периферических сосудах</span>
+            <img src="pic_leg.png" alt="leg" >
+        ​</button>
+        </a>
     </div>
+
+    <button class="language-btn" onclick="changeLanguage()">RU</button>
+
     <script src="script.js"></script>
 </body>
 </html>
